@@ -1,0 +1,46 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/vaskir/RiderProjects/ConsoleApp4/ConsoleApp4/ConsoleApp4.fsproj",
+    "projectName": "ConsoleApp4",
+    "projectPath": "/Users/vaskir/RiderProjects/ConsoleApp4/ConsoleApp4/ConsoleApp4.fsproj",
+    "outputPath": "/Users/vaskir/RiderProjects/ConsoleApp4/ConsoleApp4/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "FSharp.Configuration": {
+          "target": "Package",
+          "version": "[2.0.0-alpha1, )"
+        },
+        "FSharp.Core": {
+          "target": "Package",
+          "version": "[4.3.*, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
